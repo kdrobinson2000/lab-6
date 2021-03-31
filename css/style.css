@@ -1,0 +1,55 @@
+nav#main-navbar ul {
+  position: relative;
+  overflow: hidden;
+  background-color: blue;
+}
+
+div#onpage a {
+  float: left;
+  position: relative;
+  left: 50%;
+  right: 50%;  
+  width: 100%;
+  overflow:hidden;
+}  
+
+nav#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+nav#main-navbar ul li {
+  float: left;
+}
+
+nav#main-navbar ul li a {
+  display: block;
+  color: #fff;
+  background-color: blue;
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+  text-decoration: none;
+
+}
+
+nav#main-navbar li a:hover {
+  background-color: #000;
+}
+
+nav#sidebar-container ul li {
+  margin:5px 0;
+}
+nav#sidebar-container  ul li a {
+display:block;
+background-color: red;
+color:white;
+text-decoration:none;
+
+text-align:center;
+width:100%;
+	
+
+
