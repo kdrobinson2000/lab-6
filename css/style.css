@@ -1,55 +1,61 @@
-nav#main-navbar ul {
-  position: relative;
-  overflow: hidden;
+
+#main-navbar {
   background-color: blue;
+  overflow: hidden;
+  float:left;
+  width:100%;
+  position:relative;
+  display:block;
 }
 
-div#onpage a {
-  float: left;
-  position: relative;
-  left: 50%;
-  right: 50%;  
-  width: 100%;
-  overflow:hidden;
-}  
-
-nav#main-navbar ul {
+#navbar-container ul {
+  position:relative;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: blue;
 }
-
-nav#main-navbar ul li {
-  float: left;
-}
-
-nav#main-navbar ul li a {
+  
+#navbar-container li {
+  position:relative;
+  float:left;
   display: block;
-  color: #fff;
-  background-color: blue;
-  text-align: center;
-  padding: 10px 0px 20px 0px;
-  text-decoration: none;
-
+  padding: 10px 20px;
+  left:50%;
+  right:50%;
+  text-decoration:none;
+}
+   
+#navbar-container a {
+  float:left;
+  text-decoration:underline overline;
+  color:#fff;
+  background-color:#000;
+}
+ 
+#sidebar {
+  background-color: red;
+  width:20%;
+  position:fixed;
+  display:block;
+  right:0%;
+  height:100%	
 }
 
-nav#main-navbar li a:hover {
-  background-color: #000;
+#sidebar-container ul {
+  text-align:center;
+  list-style-type: none;
+  padding:0;
 }
 
-nav#sidebar-container ul li {
-  margin:5px 0;
+#sidebar-container li{
+  padding:15x 0px;
 }
-nav#sidebar-container  ul li a {
-display:block;
-background-color: red;
-color:white;
-text-decoration:none;
 
-text-align:center;
-width:100%;
-	
+#sidebar-container a {
+  text-decoration:none;
+  color:#fff;
+  background-color:#000;
+}	
+
 
 
